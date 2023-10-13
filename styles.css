@@ -1,3 +1,4 @@
+
 .bee-row,
 .bee-row-content {
 	position: relative
@@ -460,6 +461,41 @@ span.fa-chevron-up:hover {
 	visibility: visible;
 }
 
+.bee-block.bee-block-1.bee-social .icon img {
+	width: auto;
+	height: auto;
+}
+
+#team {
+	display: flex;
+	flex-direction: column;
+}
+
+#team img {
+	width: 10vw;
+}
+
+.w3-row-1 {
+	display: flex;
+	justify-content: center;
+}
+
+.w3-row-2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.w3-quarter {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.nav-item {
+	font-family: 'Bungee', cursive;
+}
+
 @keyframes slide {
 	0% {
 		opacity: 0;
@@ -501,3 +537,4 @@ span.fa-chevron-up:hover {
 		font-size: 150px;
 	}
 }
+
